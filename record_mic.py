@@ -6,9 +6,9 @@ p = pyaudio.PyAudio()
 # Constants
 CHUNK = 3200
 FORMAT = pyaudio.paInt16
-CHANNELS = 2
-RATE = 44100
-SECONDS = 5
+CHANNELS = 1
+RATE = 16000
+SECONDS = 1
 
 stream = p.open(
     format=FORMAT,
