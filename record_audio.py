@@ -35,10 +35,3 @@ def record_sound():
 
 def terminate():
     p.terminate()
-
-# with wave.open('output_by_marcel.wav', 'wb') as wf:
-#     wf.setnchannels(CHANNELS)
-#     wf.setsampwidth(p.get_sample_size(FORMAT))
-#     wf.setframerate(RATE)
-#     wf.writeframes(b''.join(frames))
-#     wf.close()
